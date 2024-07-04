@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Sitesi</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .jumbotron-custom-1 {
+            background-color: #5a9; /* Renk 1 */
+            color: white;
+        }
+        .jumbotron-custom-2 {
+            background-color: #b35; /* Renk 2 */
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar Başlangıç -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Blog Sitesi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Anasayfa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Hakkımızda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">İletişim</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navbar Bitiş -->
+
+    <!-- Jumbotronlar Başlangıç -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="jumbotron jumbotron-custom-1 text-center">
+                    <h1>Hoşgeldiniz</h1>
+                    <p>Blog sitemizde en son yazılarımızı bulabilirsiniz.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="jumbotron jumbotron-custom-2 text-center">
+                    <h1>Merhaba</h1>
+                    <p>Yeni içeriklerimizi keşfetmek için takipte kalın.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Jumbotronlar Bitiş -->
+
+    <!-- Blog Kartları Başlangıç -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img style="height: 300px;width:300px;" src="kenan.png" class="card-img-top" alt="Blog Görseli">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog Başlığı 1</h5>
+                        <p class="card-text">Blog içeriğinin kısa bir açıklaması.</p>
+                        <a href="#" class="btn btn-primary">Devamını Oku</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img style="height: 300px;width:300px;" src="foto.png" class="card-img-top" alt="Blog Görseli">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog Başlığı 2</h5>
+                        <p class="card-text">Blog içeriğinin kısa bir açıklaması.</p>
+                        <a href="#" class="btn btn-primary">Devamını Oku</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img style="height: 300px;width:300px;" src="foto2.png" class="card-img-top" alt="Blog Görseli">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog Başlığı 3</h5>
+                        <p class="card-text">Blog içeriğinin kısa bir açıklaması.</p>
+                        <a href="#" class="btn btn-primary">Devamını Oku</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog Kartları Bitiş -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
